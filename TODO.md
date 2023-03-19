@@ -1,0 +1,3 @@
+- Tests
+- ESLint
+- Husky and lint-staged

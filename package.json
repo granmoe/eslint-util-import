@@ -1,0 +1,27 @@
+{
+  "name": "eslint-util-import",
+  "version": "1.0.0",
+  "description": "Given an import path, returns the path relative to project root and absolute path with respect to any TS config and Webpack config",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint --ext .ts src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/granmoe/eslint-util-import.git"
+  },
+  "author": "Matt Granmoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/granmoe/eslint-util-import/issues"
+  },
+  "homepage": "https://github.com/granmoe/eslint-util-import#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "jest": "^29.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}
